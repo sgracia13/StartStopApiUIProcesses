@@ -1,0 +1,12 @@
+# .gitignore Explanation: https://git-scm.com/docs/gitignore
+
+### PowerShell ###
+# Exclude packaged modules
+*.zip
+
+# Exclude .NET assemblies from source
+*.dll
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
